@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+
+<script type="module" src="https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js"></script>
+
+
+    <script   src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+
+</head>
+<body>
+
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                
+                    <h2>SignUp</h2>
+
+                    <div class="inputbox">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input type="username" id="username" required autocomplete="off">
+                        <label for="username">Username</label>
+                    </div>
+
+
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" id="email" required autocomplete="off">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="pass" required autocomplete="off">
+                        <label for="password">Password</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <input type="text" id="phone" required autocomplete="off">
+                        <label for="phone">Phone</label>
+                    </div>
+
+                    
+                    
+                    <button type="button" id="signUp" onclick="signUp()"  >  Sign Up  </button>
+                   
+                    <div class="register">
+                        <p>Already have a account? <a href="Login.html">Login</a></p>
+                    </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+
+
+   
+
+<script type="module"  src="auth.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

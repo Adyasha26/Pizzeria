@@ -1,0 +1,289 @@
+body{
+    
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+   justify-content: center;
+
+     
+}
+html{
+  font-size: 62.5%;
+  /*10px  1rem   */ 
+}
+@media (max-width:998px) {
+html{
+  font-size:55%;
+  
+}
+}
+@media (max-width:768px) {
+  html{
+      font-size:45%;
+  }
+  }
+  @media (max-width:300px) {
+      html{
+          font-size:35%;
+      }
+      }
+      .Header{
+        background-color:#a52a2a;
+        width:100%;
+        height: 100px;
+        display:flex;
+        
+        
+      }
+      
+      .Header .l_logo{
+        height:60px;
+        width:10%;
+         display: flex;
+      }
+      
+      .Header .l_logo img{
+        height:95px;
+        width:150px
+      }
+      
+      .Header .links{
+        margin-left: auto;
+        margin-top: 50px;
+        text-align: center;
+        height:100%;
+        width:65%;
+        display: flex;
+        justify-content: space-evenly;
+       
+      }
+      
+      .Header .links a{
+        height:15%;
+      
+      }
+      
+      
+      .Login {
+        background: #030505;
+        background-image: -webkit-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -moz-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -ms-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -o-linear-gradient(top, #030505, #0c0c0d);
+        background-image: linear-gradient(to bottom, #030505, #0c0c0d);
+        -webkit-border-radius: 21;
+            -moz-border-radius: 21;
+            border-radius: 21rem;
+            font-family: Georgia,'Merriweather', serif;
+            color: #ffffff;
+            font-size: 1.4rem;
+            padding: 1rem 2rem 1rem 2rem;
+            text-decoration: none;
+            height:15%;
+            margin-top: 50px;
+      }
+      
+      .Login:hover {
+        background: #353738;
+            background-image: -webkit-linear-gradient(top, #353738, #6f7478);
+            background-image: -moz-linear-gradient(top, #353738, #6f7478);
+            background-image: -ms-linear-gradient(top, #353738, #6f7478);
+            background-image: -o-linear-gradient(top, #353738, #6f7478);
+            background-image: linear-gradient(to bottom, #353738, #6f7478);
+            text-decoration: none;
+      }
+      
+      
+      .Home {
+        background: #030505;
+        background-image: -webkit-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -moz-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -ms-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -o-linear-gradient(top, #030505, #0c0c0d);
+        background-image: linear-gradient(to bottom, #030505, #0c0c0d);
+        -webkit-border-radius: 21;
+            -moz-border-radius: 21;
+            border-radius: 21rem;
+            font-family: Georgia,'Merriweather', serif;
+            color: #ffffff;
+            font-size: 1.4rem;
+            padding: 1rem 2rem 1rem 2rem;
+            text-decoration: none;
+      }
+      
+      .Home:hover {
+        background: #353738;
+            background-image: -webkit-linear-gradient(top, #353738, #6f7478);
+            background-image: -moz-linear-gradient(top, #353738, #6f7478);
+            background-image: -ms-linear-gradient(top, #353738, #6f7478);
+            background-image: -o-linear-gradient(top, #353738, #6f7478);
+            background-image: linear-gradient(to bottom, #353738, #6f7478);
+            text-decoration: none;
+      }
+         
+              
+        
+        
+        .Menu {
+            background: #030505;
+            background-image: -webkit-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -moz-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -ms-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -o-linear-gradient(top, #030505, #0c0c0d);
+        background-image: linear-gradient(to bottom, #030505, #0c0c0d);
+            -webkit-border-radius: 21;
+            -moz-border-radius: 21;
+            border-radius: 21rem;
+            font-family: Georgia,'Merriweather', serif;
+            color: #ffffff;
+            font-size: 1.4rem;
+            padding: 1rem 2rem 1rem 2rem;
+            text-decoration: none;
+            
+          }
+          
+          .Menu:hover {
+            background: #353738;
+            background-image: -webkit-linear-gradient(top, #353738, #6f7478);
+            background-image: -moz-linear-gradient(top, #353738, #6f7478);
+            background-image: -ms-linear-gradient(top, #353738, #6f7478);
+            background-image: -o-linear-gradient(top, #353738, #6f7478);
+            background-image: linear-gradient(to bottom, #353738, #6f7478);
+            text-decoration: none;
+          }
+      
+          .About {
+            background: #030505;
+            background-image: -webkit-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -moz-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -ms-linear-gradient(top, #030505, #0c0c0d);
+        background-image: -o-linear-gradient(top, #030505, #0c0c0d);
+        background-image: linear-gradient(to bottom, #030505, #0c0c0d);
+            -webkit-border-radius: 21;
+            -moz-border-radius: 21;
+            border-radius: 21rem;
+            font-family: Georgia,'Merriweather', serif;
+            color: #ffffff;
+            font-size: 1.4rem;
+            padding: 1rem 2rem 1rem 2rem;
+            text-decoration: none;
+            
+          }
+          
+          .About:hover {
+            background: #353738;
+            background-image: -webkit-linear-gradient(top, #353738, #6f7478);
+            background-image: -moz-linear-gradient(top, #353738, #6f7478);
+            background-image: -ms-linear-gradient(top, #353738, #6f7478);
+            background-image: -o-linear-gradient(top, #353738, #6f7478);
+            background-image: linear-gradient(to bottom, #353738, #6f7478);
+            text-decoration: none;
+          }
+      
+      .r_logo{
+        justify-content: space-between;
+        height:100%;
+        width:25%;
+        display: flex;
+      }
+      .r_logo img{
+        height:95px;
+        width:155px
+      }
+      
+      .r_logo .cart {
+        text-align: center;
+        width: 50px;
+        margin: auto;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+      
+      
+       
+      }
+
+      .product_page {
+        
+        width: 100%;
+       display: flex;
+      }
+
+
+      .product_page .preview{
+     display: none;
+
+      }
+
+      .product_page .preview.active{
+        display: inline-block;
+      }
+
+      .left_product_img{
+        width: 50%;
+        height: 100%;
+        margin-top: 10%;
+
+      }
+
+      .product_info{
+        width: 50%;
+        height: 100%;
+        margin-top: 5%;
+        font-size: 25px;
+        text-align: left;
+      }
+
+      .size{
+        width: 40%;
+        display: flex;
+        
+      }
+
+
+      .small{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        cursor: pointer;
+         justify-content: space-evenly;
+      }
+
+      .medium{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        justify-content: space-evenly;
+
+      }
+
+      .large{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        justify-content: space-evenly;
+
+      }
+
+      .size_text{
+        font-size: 22px;
+        justify-content: space-between;
+      }
+
+      .checkbox_ele{
+        display: flex;
+        width: 40%;
+        height: 50%;
+        flex-direction: row;
+        
+        justify-content: space-evenly;
+      }
+
+      .Add_To_Cart{
+        display: flex;
+        width: 40%;
+        height: 50%;
+        flex-direction: row;
+        margin-top: 30px;
+       
+      }

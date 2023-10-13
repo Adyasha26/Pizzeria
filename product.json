@@ -1,0 +1,97 @@
+[
+    {   "id":"1",
+        "name":"La Pinoz",
+        "price":"50$",
+        "description":" dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza1.jpg"
+    
+    },
+    {
+        "id":"2",
+        "name":"La Pinoz2",
+        "price":"50$2",
+        "description":" 2dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza2.jpg"
+    
+    },
+    {
+        "id":"3",
+        "name":"La Pinoz3",
+        "price":"50$3",
+        "description":" 3dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza3.png"
+    
+    },
+    {
+        "id":"4",
+        "name":"La Pinoz4",
+        "price":"50$4",
+        "description":" 4dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza4.png"
+    
+    },
+    {
+        "id":"5",
+        "name":"La Pinoz5",
+        "price":"50$5",
+        "description":" 5dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza5.png"
+    
+    },
+    {
+        "id":"6",
+        "name":"La Pinoz6",
+        "price":"50$6",
+        "description":" 6dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza6.png"
+    
+    },
+    {
+        "id":"7",
+        "name":"La Pinoz7",
+        "price":"50$7",
+        "description":" 7dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza7.png"
+    
+    },
+    {
+        "id":"8",
+        "name":"La Pinoz8",
+        "price":"50$8",
+        "description":" 8dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza8.png"
+    
+    },
+    {
+        "id":"9",
+        "name":"La Pinoz9",
+        "price":"50$9",
+        "description":" 9dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza9.png"
+    
+    },
+    {
+        "id":"10",
+        "name":"La Pinoz10",
+        "price":"50$10",
+        "description":" 10dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza10.png"
+    
+    },
+    {
+        "id":"12",
+        "name":"La Pinoz11",
+        "price":"50$11",
+        "description":" 11dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza11.png"
+    
+    },
+    {
+        "id":"12",
+        "name":"La Pinoz12",
+        "price":"50$12",
+        "description":" 12dufjlidjfaliji dkfjhndkjv",
+        "imgSrc":"images/pizza12.png"
+    
+    }
+]

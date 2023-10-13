@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+      <!-- Link Swiper's CSS -->
+  
+
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+   
+    <link href="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <title>Pizzeria|Home</title>
+</head>
+<body>
+
+    <nav class="Header "   id="top">
+        <div class="l_logo">
+           <img src="images/th55.png" alt="">
+           
+        </div>
+        <div class="links">
+            <a  class="Home" href="index.html">Home</a>
+            <a class="Menu" href="#middle">Menu</a>
+            <a class="About" href="About.html">About</a>
+        </div>
+        <div class="r_logo">
+            <img src="images/th22.png" alt="">
+
+
+            <div class="cart">
+            <img id="cart-btn" src="images/shopping-cart.png" alt="">
+            <div id="cart-count-info" class="quan" >0</div>
+          </div>
+           
+        </div>
+
+       <a href="Login.html"> <button class="Login" id="login-btn">Login</button></a>
+    
+        
+        
+
+        
+        
+        
+    </nav>
+ 
+    <div class="Main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+
+
+         <div class="slide swiper-slide">
+           <div class="left">
+             <div class="text">
+               <h1>FEELS LIKE HOME</h1>
+               <h1>50% OFF</h1>
+               <img src="images/on5.png" alt="">
+             </div>
+           </div>
+           <div class="right">
+             <img  src="images/desipp.png" alt="">
+           </div>
+          </div>
+
+
+         <div class="slide swiper-slide">
+           <div class="left">
+             <div class="text">
+                <h1>CUSTOMIZE YOUR PIZZA</h1>
+                <h1>50% OFF</h1>
+                <img src="images/on5.png" alt="">
+             </div>
+           </div>
+           <div class="right">
+           <img  src="images/customizepp.png" alt="">
+            </div>
+         </div>
+
+
+         <div class="slide swiper-slide">
+            <div class="left">
+               <div class="text">
+                  <h1>FRESHLY BAKED</h1>
+                  <h1>50% OFF</h1>
+                  <img src="images/on5.png" alt="">
+               </div>
+            </div>
+            <div class="right">
+               <img  src="images/homepp.png" alt="">
+            </div>
+         </div>
+
+
+   </div>
+
+   <div class="swiper-button-next nav-btn"></div>
+   <div class="swiper-button-prev nav-btn"></div>
+   <div class="swiper-pagination"></div>
+
+
+   </div>
+
+
+
+
+
+    <div class="List" id="middle"  >
+     
+        <h1 class="msg">THE BEST PIZZA IN TOWN</h1>
+        <img class="pizza-tempicon"  src="images/th.jpg" alt="">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident accusamus 
+              beatae minus quis odio facilis fuga voluptatum adipisci harum,
+               reiciendis quam repudiandae aperiam. Qui, dolor. Nobis inventore 
+               exercitationem maiores nostrum?
+            </p>
+     
+        <div class="menu-items" id="menu-items">
+                         
+            
+            <div class="pizzabox"  id="clickme" href="#middle"  > 
+             
+               <img class="cart-img" src="images/pizza1.jpg"  alt="">
+               <h2 class="cart-info-name">Italian</h2>
+               <h3 class="cart-price">Rs380</h3>
+               <button class="add-cart">Add to Cart</button>
+                
+                
+            </div>
+
+
+            <div class="pizzabox" id="2">
+
+               <img class="cart-img" src="images/pizza2.jpg" alt="">
+               <h2 class="cart-info-name">Margherita</h2>
+               <h3 class="cart-price">Rs400</h3>
+               <button class="add-cart">Add to Cart</button>
+              
+            </div>
+
+
+            <div class="pizzabox" id="3">
+              <img class="cart-img" src="images/pizza3.jpg" alt="">
+              <h2 class="cart-info-name">Marinara</h2>
+              <h3 class="cart-price">Rs350</h3>
+              <button class="add-cart">Add to Cart</button>
+                
+            
+            </div>
+
+
+            <div class="pizzabox" id="4">
+              <img class="cart-img" src="images/pizza4.jpg" alt="">
+              <h2 class="cart-info-name">Pepperoni</h2>
+              <h3 class="cart-price">Rs360</h3>
+              <button class="add-cart">Add to Cart</button>
+              
+                
+             
+            </div>
+           
+
+
+
+        
+            <div class="pizzabox" id="5">
+              <img class="cart-img" src="images/pizza5.jpg" alt="">
+              <h2 class="cart-info-name">Schiacciata</h2>
+              <h3 class="cart-price">Rs380</h3>
+              
+              <button class="add-cart">Add to Cart</button>
+            
+            </div>
+
+
+            <div class="pizzabox" id="6">
+              <img class="cart-img"  src="images/pizza6.png" alt="">
+              <h2 class="cart-info-name">Valtellina</h2>
+              <h3 class="cart-price">Rs350</h3>
+                <button class="add-cart">Add to Cart</button>
+              
+            </div>
+
+
+            <div class="pizzabox" id="7">
+              <img class="cart-img" src="images/pizza7.jpg" alt="">
+              <h2 class="cart-info-name">Carbonara</h2>
+              <h3 class="cart-price">Rs380</h3>
+              <button class="add-cart">Add to Cart</button>
+              
+            </div>
+            <div class="pizzabox"  id="8">
+              <img class="cart-img" src="images/pizza8.jpg" alt="">
+              <h2 class="cart-info-name">Crudo</h2>
+              <h3 class="cart-price">Rs299</h3>
+              <button class="add-cart">Add to Cart</button>
+              
+            </div>
+          
+        
+
+      
+          <div class="pizzabox" id="9">
+            <img class="cart-img" src="images/pizzar.jpg" alt="">
+            <h2 class="cart-info-name">Montanara</h2>
+            <h3 class="cart-price">Rs390</h3>
+            <button class="add-cart">Add to Cart</button>
+          
+          </div>
+
+
+          <div class="pizzabox" id="10">
+            <img class="cart-img" src="images/pizza10.jpg" alt="">
+            <h2 class="cart-info-name">Emiliana</h2>
+            <h3 class="cart-price">Rs320</h3>
+            <button class="add-cart">Add to Cart</button> 
+              
+            
+          </div>
+
+
+          <div class="pizzabox" id="11">
+            <img class="cart-img" src="images/pizza12.png" alt="">
+            <h2 class="cart-info-name">Americana</h2>
+            <h3 class="cart-price">Rs275</h3>
+            <button class="add-cart">Add to Cart</button> 
+                
+            
+          </div>
+          <div class="pizzabox" id="12">
+            <img class="cart-img" src="images/pizzar3.jpg" alt="">
+            <h2  class="cart-info-name">Braccio</h2>
+            <h3 class="cart-price">Rs354</h3>
+            <button class="add-cart">Add to Cart</button>
+              
+            
+          </div>
+         
+      </div>
+
+
+
+
+ 
+
+   
+
+</div>
+
+
+<div class="cart-container">
+  <h2 class="cart-title">CART</h2>
+  <div class="close">+</div>
+  <div class="cart-list">
+
+
+    <!--<div class="cart-box">
+      <img src="images/customizep.jpg" class="cart-img" alt="">
+      <div class="cart-info">
+        <div class="cart-info-name">Italian Mexican Pizza</div>
+        <div class="cart-price">$68</div>
+        <div class="cart-amt">$68</div>
+      </div>
+      <input type="number" id="quantity" name="quantity" min="1" max="5">
+      <div class="cart-remove">+</div>
+     </div>
+    -->
+
+  
+</div>
+
+
+ 
+
+<div class="cart-total">
+  <h3>Total:</h3>
+  <span id="cart-total-value">67978</span>
+</div>
+<br><br>
+<button class="btn-buy" id="place-order-btn"  >Place Order</button>
+<button id="rzp-button1">Pay</button>
+</div>
+
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    <div class="Footer">
+        <div class="photo">
+          <img src="images/footerlogo.png" alt="">
+        </div>
+        <div class="info">
+          <h2>FIND OUR PIZZERIA</h2>
+          <p>Bakers Street New York</p>
+          <br>
+          <img class="contact-icon"src="images/contact.png" alt="">
+          <br>
+          <h2>CONTACT US</h2>
+          <p>PHONE:<span>(123) 456 789</span></p>
+          <p>EMAIL:<span> aadya@gmail.com</span></p>
+
+        </div>
+    </div> 
+
+   
+
+
+
+  
+
+
+ <!-- Swiper JS -->
+ <script src="js/swiper-bundle.min.js"></script>
+ <!-- Initialize Swiper -->
+ <script>
+  
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+   
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+</script>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-auth-compat.js"></script>
+ 
+ <script src="jash.js"></script>
+
+ <script type="module" src="login.js"></script>
+ <script type="module" src="auth.js"></script>
+ <script>
+
+const firebaseConfig={
+ //Firebase config 
+ apiKey: "AIzaSyAlrTgCod6VG5YReeZ1pOgL05dtwSXPQ8s",
+  authDomain: "authpizzeria.firebaseapp.com",
+  databaseURL: "https://authpizzeria-default-rtdb.firebaseio.com",
+  projectId: "authpizzeria",
+  storageBucket: "authpizzeria.appspot.com",
+  messagingSenderId: "1021674523157",
+  appId: "1:1021674523157:web:53b852204516f50b081c1c"
+};
+
+
+
+
+
+firebase.initializeApp(firebaseConfig);
+const db = firebase.database();
+var firebaseRef=db.ref("users");
+firebaseRef.on("value",function(snapshot){
+  snapshot.forEach(function(element){
+    console.log(element.val());
+  });
+})
+
+
+
+
+   function checkAuthState() {
+    const isLoggedIn = localStorage.getItem('isLoggedIn');
+    if (isLoggedIn === 'true') {
+      // User is logged in
+      updateUIForLoggedInUser();
+    } else {
+      // User is logged out
+      updateUIForLoggedOutUser();
+    }
+  }
+
+
+  function updateUIForLoggedInUser() {
+    const loginBtn = document.getElementById('login-btn');
+    if (loginBtn) {
+      loginBtn.innerText = "Logout";
+      loginBtn.onclick = () => {
+        // Clear the login state in browser storage
+        localStorage.setItem('isLoggedIn', 'false');
+        // Redirect to login.html or perform sign-out action
+        window.location.assign("login.html");
+      };
+    }
+  }
+
+  // Function to update the UI when a user is logged out
+  function updateUIForLoggedOutUser() {
+    const loginBtn = document.getElementById('login-btn');
+    if (loginBtn) {
+      loginBtn.innerText = "Login";
+      loginBtn.onclick = () => {
+        // Redirect to login.html
+        window.location.assign("login.html");
+      };
+    }
+  }
+
+  window.onload = () => {
+    checkAuthState();
+    
+  };
+
+
+ </script>
+
+
+
+
+ <!--<script >
+
+      document.getElementById('clickme').addEventListener('click',
+      function(){
+        document.querySelector('.product_page').style.display='flex';
+      
+      });
+
+      document.querySelector('.close').addEventListener('click',
+      function(){
+        document.querySelector('.product_page').style.display='none';
+      }); 
+
+    /*function toggle(){
+      let product_page = document.querySelector('.preview');
+      product_page.classList.toggle('.active');
+    }     
+    
+});*/
+ </script>-->
+    
+</body>
+</html>
